@@ -1,7 +1,7 @@
 <h1>Todo list</h1>
 <hr>
 <ul>
-  <li></li>
+  <li>Add JavaScript code to resize diddy to the full screen size (temp until forums)</li>
   <li>Add 0px wide iframe to ephram.lol</li>
   <li>Setup remote authentication system<ul>
     <li>use my webserver</li>
