@@ -2,6 +2,7 @@
 <hr>
 <ul>
   <li>Add JavaScript code to resize diddy to the full screen size (temp until forums)</li>
+  <li>Add an iframe which leads to a sellix/shopify where people can buy invites</li>
   <li>Add 0px wide iframe to ephram.lol</li>
   <li>Setup remote authentication system<ul>
     <li>use my webserver</li>
