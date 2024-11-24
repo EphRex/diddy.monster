@@ -1,0 +1,104 @@
+<!DOCTYPE html><html><head>
+  <meta content="=" property="og:title">
+  <meta content="" property="og:description">
+  <meta content="images/xenowo_1.png" property="og:image">    
+  <meta content="#cd0e31" data-react-helmet="true" name="theme-color">
+  <link rel="icon" type="image/x-icon" href="images/xenowo.png">
+  <title>ephram.lol</title>
+  <link rel="stylesheet" href="css/main.css">
+  <style>
+    @font-face {
+      font-family: 'Help Me';
+      src: url('fonts/HelpMe.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Cityburn';
+      src: url('fonts/cityburn.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'artifact';
+      src: url('fonts/artifact.ttf') format('truetype');
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay" id="overlay">
+    <div class="proceed-button" onclick="removeOverlay(); playMusic()">proceed</div>
+  </div>
+  <div class="container">
+    <a href="https://ephram.lol/" target="_blank" style="text-decoration: none; color: #6f0000;">
+      <h1>Qosa</h1>
+    </a>
+	<a href="https://ephram.lol/" target="_blank" style="text-decoration: none; color: #6f0000;">
+       <h><center>skibidi rizz fanum AURA
+        run my 1s pussy nigga you folding like a lawn chair
+       </center></h>
+    </a>
+  </div>
+  <div id="clock">12:35:46 AM</div>
+  <script>
+    function removeOverlay() {
+      var overlay = document.getElementById("overlay");
+      overlay.style.display = "none";
+    }
+
+    function updateClock() {
+      const now = new Date();
+      const options = {
+        timeZone: 'America/Chicago',
+        hour12: true,
+        hour: 'numeric',
+        minute: '2-digit',
+        second: '2-digit'
+      };
+      const formattedTime = now.toLocaleTimeString('en-US', options);
+	  
+      document.getElementById('clock').textContent = formattedTime;
+	  document.getElementById('snowflake').style.color = "#6f0000";
+    }
+
+    setInterval(updateClock, 100);
+
+    function createBloodSparks() {
+      const numSparks = Math.floor(Math.random() * 5) + 1;
+      for (let i = 0; i < numSparks; i++) {
+        const bloodSpark = document.createElement('div');
+        bloodSpark.classList.add('blood-spark');
+        bloodSpark.style.left = `${Math.random() * window.innerWidth}px`;
+		bloodSpark.style.color = "#6f0000";
+        document.body.appendChild(bloodSpark);
+        setTimeout(() => {
+          bloodSpark.remove();
+        }, 6000);
+      }
+    }
+
+    setInterval(createBloodSparks, 1000);
+  </script>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+  <div class="snowflake">😂 🖕</div>
+
+
+<script>
+        function playMusic() {
+          var audio = new Audio('main.mp3');
+          audio.play();
+      }
+</script>
+  <script src="js/main.js"></script>
+  <script src="js/geek.js"></script>
+  <script src="js/disable_inspect.js"></script>
+  <script src="js/disable-devtool.min.js"></script>
+  <script src="js/funny.js"></script>
+
+
+</body></html>
